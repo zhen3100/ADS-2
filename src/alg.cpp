@@ -1,4 +1,4 @@
-// Copyright 2022 NNTU-CS
+// Copyright 2022 EV.VOLKOV
 #include <cstdint>
 #include "alg.h"
 
