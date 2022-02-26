@@ -28,7 +28,7 @@ double calcItem(double x, uint16_t n) {
 
 double expn(double x, uint16_t count) {
     double res = 0;
-    for (uint16_t n = 0; n < count; n++) {
+    for (uint16_t n = 0; n <= count; n++) {
         res += pown(x, n) / fact(n);
     }
     return res;
